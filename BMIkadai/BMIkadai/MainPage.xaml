@@ -6,9 +6,24 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
+        <Entry Placeholder="身長を入力(ｍ)" x:Name ="sin"
+           VerticalOptions="CenterAndExpand"/>
+
+        <Entry Placeholder="体重を入力(kg)"  x:Name ="tai"
            VerticalOptions="CenterAndExpand" />
+        
+        <Button Text="計算する" x:Name ="keisan"
+         HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
+        
+        <Label Text="ここにBMIが表示されます"
+               x:Name="bmi"
+         HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="計算する(2ページ)" x:Name ="keisan2"
+         HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
